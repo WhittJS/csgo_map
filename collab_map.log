@@ -2373,3 +2373,128 @@ Total triangle count: 2144
 Writing c:\steamlibrary\steamapps\common\counter-strike global offensive\sdk_content\maps\collab\csgo_map\collab_map.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'c:\steamlibrary\steamapps\common\counter-strike global offensive\sdk_content\maps\collab\csgo_map\collab_map.bsp', but we don't own that location. Allowing...
 3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\whitt\github\csgo_map\csgo_map\collab_map.vmf
+Map revision 22
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\whitt\github\csgo_map\csgo_map\collab_map.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2607 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 10 texinfos to 4
+Reduced 4 texdatas to 3 (102 bytes to 66)
+Writing c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp
+reading c:\users\whitt\github\csgo_map\csgo_map\collab_map.prt
+ 123 portalclusters
+ 301 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 15138
+Average clusters visible: 123
+Building PAS...
+Average clusters audible: 123
+visdatasize:4924  compressed from 3936
+writing c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp
+1075 faces
+2158569 square feet [310834016.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1075 patches before subdivision
+61191 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1659875, max 775
+transfer lists:  12.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0324 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                  7/8192           84/98304    ( 0.1%) 
+brushsides              46/81920         368/655360   ( 0.1%) 
+planes                  76/65536        1520/1310720  ( 0.1%) 
+vertexes              1267/65536       15204/786432   ( 1.9%) 
+nodes                  310/65536        9920/2097152  ( 0.5%) 
+texinfos                 4/12288         288/884736   ( 0.0%) 
+texdata                  3/4096           96/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1075/65536       60200/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               10/65536         560/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        1075/0            4300/0        ( 0.0%) 
+leaves                 312/65536        9984/2097152  ( 0.5%) 
+leaffaces             1075/65536        2150/131072   ( 1.6%) 
+leafbrushes            196/65536         392/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4774/512000      19096/2048000  ( 0.9%) 
+edges                 2452/256000       9808/1024000  ( 1.0%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           807/65536        1614/131072   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7121732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        4924/16777216 ( 0.0%) 
+entdata               [variable]         352/393216   ( 0.1%) 
+LDR ambient table      312/65536        1248/262144   ( 0.5%) 
+HDR ambient table      312/65536        1248/262144   ( 0.5%) 
+LDR leaf ambient       123/65536        3444/1835008  ( 0.2%) 
+HDR leaf ambient       312/65536        8736/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149081/0        ( 0.0%) 
+physics               [variable]        2607/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2586
+Writing c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\whitt\github\csgo_map\csgo_map\collab_map.bsp', but we don't own that location. Allowing...
+2 seconds elapsed
